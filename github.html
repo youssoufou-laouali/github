@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="indig ighten-5">
+    <div class="container center">
+        <img class="responsive-img center" width="300" src="https://clipart.info/images/ccovers/1499794873github-logo-png.png" alt="logo">
+        <p class="title">
+            SEARCH GITHUB USER
+        </p>
+        <form action="">
+            <div class="input-field col s10 offset-1">
+                <input placeholder="Search " id="input" type="search" class="validate">
+            </div>
+            <button class="btn white deep-purple-text text-lighten-3" type="submit" id="submit" name="action">Rechercher
+              </button>
+        </form>
+    </div>
+    <div id="searching">
+
+    </div>
+</body>
+<style>
+    body {
+        background-color: #eeeeee;
+    }
+    
+    .center {
+        margin: 50px auto;
+    }
+    
+    .title {
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    
+    .bleulink,
+    .vertrepos {
+        background-color: cornflowerblue;
+        color: white;
+        padding: 2px 5px;
+        border-radius: 3px;
+    }
+    
+    .bleulink {
+        background-color: cornflowerblue;
+    }
+    
+    .vertrepos {
+        background-color: yellowgreen;
+    }
+    
+    .image {
+        max-height: 250px;
+        border-radius: 50px;
+    }
+    
+    .shadow {
+        border-radius: 10px;
+        background: #E8EAF6;
+        box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+        /*box-shadow: inset 5px 5px 10px #c5c7d1, inset -5px -5px 10px #ffffff;*/
+        padding: 30px;
+        margin: 60px 30px;
+        background: white;
+    }
+    
+    strong {
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: 16px;
+        text-decoration: underline rgb(55, 92, 255);
+    }
+    
+    .rep {
+        height: 240px;
+        overflow: auto;
+    }
+    
+    .rep a {
+        display: block;
+        background-color: rgb(247, 247, 247);
+        color: blueviolet;
+        text-align: center;
+    }
+    
+    .color {
+        color: white !important;
+        margin-bottom: 20px;
+    }
+</style>
+
+<script src="github.js"></script>
+
+</html>
